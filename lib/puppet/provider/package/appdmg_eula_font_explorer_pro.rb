@@ -17,7 +17,7 @@
 # in /var/db/.puppet_appdmg_installed_<name>
 
 require 'puppet/provider/package'
-Puppet::Type.type(:package).provide(:appdmg_eula, :parent => Puppet::Provider::Package) do
+Puppet::Type.type(:package).provide(:appdmg_eula_font_explorer_pro, :parent => Puppet::Provider::Package) do
   desc "Package management which copies application bundles which require
     acceptance of an EULA to a target."
 
