@@ -1,4 +1,7 @@
 # This is a placeholder class.
-class template {
-  anchor { 'Hello_World': }
+class font_explorer_pro {
+  package { 'FontExplorerPro':
+    provider => 'appdmg',
+    source   => 'http://fex.linotype.com/download/mac/FontExplorerXPro.dmg'
+  }
 }
