@@ -2,7 +2,7 @@
 
 Experience an ultra-intuitive interface, a reliable architecture and a powerful feature set that provides quick access and control over your fonts.
 
-[![Build Status](https://travis-ci.org/singuerinc/puppet-font_explorer_pro.png?branch=master)](https://travis-ci.org/singuerinc/puppet-font_explorer_pro)
+[![Build Status](https://travis-ci.org/boxen/puppet-font_explorer_pro.svg?branch=master)](https://travis-ci.org/boxen/puppet-font_explorer_pro)
 
 ## Usage
 
