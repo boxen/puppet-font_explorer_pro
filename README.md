@@ -1,22 +1,7 @@
 # Font Explorer Pro Puppet Module for Boxen
 
-Experience an ultra-intuitive interface, a reliable architecture and a powerful feature set that provides quick access and control over your fonts.
+Deprecated in favour of [brewcask][1] and [Boxen's in built support for
+homebrew/brewcask][2].
 
-[![Build Status](https://travis-ci.org/boxen/puppet-font_explorer_pro.svg?branch=master)](https://travis-ci.org/boxen/puppet-font_explorer_pro)
-
-## Usage
-
-```puppet
-include font_explorer_pro
-```
-
-## Required Puppet Modules
-
-* `boxen`
-
-## Development
-
-Set `GITHUB_API_TOKEN` in your shell with a [Github oAuth Token](https://help.github.com/articles/creating-an-oauth-token-for-command-line-use) to raise your API rate limit. You can get some work done without it, but you're less likely to encounter errors like `Unable to find module 'boxen/puppet-boxen' on https://github.com`.
-
-Then write some code. Run `script/cibuild` to test it. Check the `script`
-directory for other useful tools.
+[1]: https://caskroom.github.io/
+[2]: https://github.com/boxen/puppet-boxen/blob/master/manifests/personal.pp#L14-L17
